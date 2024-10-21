@@ -54,7 +54,7 @@ public class JwtService {
         return buildToken(claims, userDetails, jwtExpiration);
     }
 
-    @SuppressWarnings("deprecation")
+    
     private String buildToken(
             Map<String, Object> extraClaims,
             UserDetails userDetails,
